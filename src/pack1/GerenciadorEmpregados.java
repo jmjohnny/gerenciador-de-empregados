@@ -19,13 +19,13 @@ class GerenciadorEmpregados {
         System.out.print("Alergias: ");
         String alergias = scanner.nextLine();
         System.out.print("Condições Médicas: ");
-        String condicoesMedicas = scanner.nextLine();
+        String condiçoes_preexistentes = scanner.nextLine();
         System.out.print("Telefone de Contato: ");
         String telefone = scanner.nextLine();
         System.out.print("Email de Contato: ");
         String emailContato = scanner.nextLine();
 
-        Empregado empregado = new Empregado(nome, alergias, condicoesMedicas, telefone, emailContato);
+        Empregado empregado = new Empregado(nome, alergias, condiçoes_preexistentes, telefone, emailContato);
         empregados.add(empregado);
         System.out.println("Empregado adicionado com sucesso!");
     }
