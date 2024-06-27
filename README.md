@@ -1,3 +1,7 @@
+# O programa gerenciador de Empregados.
+Este programa tem como objetivo, de adicionar Empregados
+
+
 # Como rodar a sistematização.
 Abra o eclipse.
 
