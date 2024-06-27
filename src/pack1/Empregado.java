@@ -23,7 +23,91 @@ class Empregado {
 
     
 
-    @Override
+    public int getId() {
+		return id;
+	}
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+	public static int getContadorId() {
+		return contadorId;
+	}
+
+
+
+	public static void setContadorId(int contadorId) {
+		Empregado.contadorId = contadorId;
+	}
+
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+
+	public String getAlergias() {
+		return alergias;
+	}
+
+
+
+	public void setAlergias(String alergias) {
+		this.alergias = alergias;
+	}
+
+
+
+	public String getCondicoesMedicas() {
+		return condicoesMedicas;
+	}
+
+
+
+	public void setCondicoesMedicas(String condicoesMedicas) {
+		this.condicoesMedicas = condicoesMedicas;
+	}
+
+
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+
+
+	public String getEmailContato() {
+		return emailContato;
+	}
+
+
+
+	public void setEmailContato(String emailContato) {
+		this.emailContato = emailContato;
+	}
+
+
+
+	@Override
     public String toString() {
         return "ID: " + id + "\n" +
                "Nome: " + nome + "\n" +

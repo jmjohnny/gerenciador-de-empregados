@@ -31,13 +31,17 @@ class GerenciadorEmpregados {
     }
 
     public void exibirEmpregado() {
-    	if (empregados.isEmpty()) {
-            System.out.println("Nenhum Empregado Localizado.");
-        } else {
-            for (Empregado empregado : empregados) {
+    	System.out.print("Digite o ID do empregado: ");
+        int id = scanner.nextInt();
+        scanner.nextLine(); 
+
+        for (Empregado empregado : empregados) {
+            if (empregado.getId() == id) {
                 System.out.println(empregado);
+                return;
             }
         }
+        System.out.println("Empregado não encontrado!");
     }
 
     public void menu() {
