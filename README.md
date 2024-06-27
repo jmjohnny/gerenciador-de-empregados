@@ -1,5 +1,7 @@
 # O programa gerenciador de Empregados.
-Este programa tem como objetivo, de adicionar Empregados
+Este programa implementa um sistema simples para cadastrar informações de empregados para a empresa MGS, permitindo cadastrar empregados com as seguintes informações:
+NOME,ALERGIAS,CONDIÇÕES MÉDICAS,TELEFONE DE CONTATO E EMAIL DE CONTATO. Para cada empregado é automaticamente atribuído um ID único.
+É possível visuarlizar todas as informações de um empregado cadastrado, permitindo editar suas informações.
 
 
 # Como rodar a sistematização.
