@@ -1,13 +1,15 @@
 # Como rodar a sistematização.
 Abra o eclipse.
 
-abra o projeto com o nome" gerenciador-de-empregados"
 
-Aperte o botão verde escrito "RUN"
+Abra o projeto com o nome" gerenciador-de-empregados"
+
+Aperte o botão verde com aparência de um "play", que ao colocar o mouse em cima aparece a palavra "run".
 
 Clica no console e escolha uma das opções.
+## Opções no console:
 
-Na opção "1" voçê irá adicionar um empregado.
+Na opção "1", o usuário irá adicionar um empregado.
 
 O método começa exibindo a mensagem "Adicionar novo empregado:" para informar ao usuário que o processo de adição de um novo empregado está iniciando.
 
@@ -24,5 +26,14 @@ Telefone de Contato: Exibe "Telefone de Contato: " e espera que o usuário insir
 Email de Contato: Exibe "Email de Contato: " e espera que o usuário insira o email de contato do empregado.
 
 Após coletar todas as informações necessárias, o método cria um novo objeto Empregado utilizando um construtor que recebe os dados coletados como parâmetros:
+Empregado empregado = new Empregado(nome, alergias, condiçoes_preexistentes, telefone, emailContato).
 
-Empregado empregado = new Empregado(nome, alergias, condiçoes_preexistentes, telefone, emailContato);
+Com o novo empregado adicionado, o programa volta para o menu inicial. 
+
+As próximas opções no console são:
+
+"2. Exibir Empregado". Serão exibidos todos os Empregados adicionados desde que o programa começou a ser rodado.
+
+"3.Sair", ao selecionar essa opção, o programa é encerrado.
+
+
