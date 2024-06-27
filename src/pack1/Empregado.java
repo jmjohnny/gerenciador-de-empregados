@@ -21,29 +21,7 @@ class Empregado {
         this.emailContato = emailContato;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public String getAlergias() {
-        return alergias;
-    }
-
-    public String getCondicoesMedicas() {
-        return condicoesMedicas;
-    }
-
-    public String getTelefone() {
-		return telefone;
-	}
-
-	public String getEmailContato() {
-        return emailContato;
-    }
+    
 
     @Override
     public String toString() {
